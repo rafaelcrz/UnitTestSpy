@@ -1,0 +1,6 @@
+framework module Pods_UnitTestSpy_Example {
+  umbrella header "Pods-UnitTestSpy_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module UnitTestSpy {
+  umbrella header "UnitTestSpy-umbrella.h"
+
+  export *
+  module * { export * }
+}

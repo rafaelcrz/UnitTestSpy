@@ -1,0 +1,22 @@
+{
+  "name": "UnitTestSpy",
+  "version": "0.1.0",
+  "summary": "A short description of UnitTestSpy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rafael Ramos/UnitTestSpy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rafael Ramos": "rafael.felipe1989@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Rafael Ramos/UnitTestSpy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "UnitTestSpy/Classes/**/*"
+}

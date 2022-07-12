@@ -1,0 +1,16 @@
+PODS:
+  - UnitTestSpy (0.1.0)
+
+DEPENDENCIES:
+  - UnitTestSpy (from `../`)
+
+EXTERNAL SOURCES:
+  UnitTestSpy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UnitTestSpy: 2ba0eaf848030b075ab42746096ae5cad2f4fe9b
+
+PODFILE CHECKSUM: 10fa466f15efe576064cb4ee40d7248c8c2b328a
+
+COCOAPODS: 1.11.2
