@@ -1,10 +1,5 @@
 # UnitTestSpy
 
-[![CI Status](https://img.shields.io/travis/Rafael Ramos/UnitTestSpy.svg?style=flat)](https://travis-ci.org/Rafael Ramos/UnitTestSpy)
-[![Version](https://img.shields.io/cocoapods/v/UnitTestSpy.svg?style=flat)](https://cocoapods.org/pods/UnitTestSpy)
-[![License](https://img.shields.io/cocoapods/l/UnitTestSpy.svg?style=flat)](https://cocoapods.org/pods/UnitTestSpy)
-[![Platform](https://img.shields.io/cocoapods/p/UnitTestSpy.svg?style=flat)](https://cocoapods.org/pods/UnitTestSpy)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
