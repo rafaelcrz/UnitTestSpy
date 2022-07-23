@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  UnitTestSpy
-//
-//  Created by Rafael Ramos on 07/11/2022.
-//  Copyright (c) 2022 Rafael Ramos. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

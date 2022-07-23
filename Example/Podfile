@@ -3,11 +3,10 @@ use_frameworks!
 platform :ios, '9.3'
 
 target 'UnitTestSpy_Example' do
-  pod 'UnitTestSpy', :path => '../'
-
+  
   target 'UnitTestSpy_Tests' do
     inherit! :search_paths
-
+    pod 'UnitTestSpy', :path => '../'
     
   end
 end

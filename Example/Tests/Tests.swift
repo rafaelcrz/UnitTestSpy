@@ -1,28 +1,37 @@
 import XCTest
 import UnitTestSpy
 
+extension ManagerVerifyFuncProtocol {
+    public var args: [String?] {
+        return []
+    }
+    
+    public func wasCalledOnce(file: StaticString, line: UInt) -> Bool {
+        return true
+    }
+}
+
+final class SpyClass {
+    @VerifyFuncVoid
+    private(set) var verifyFuncVoid
+    
+    @VerifyFuncArgs<String>
+    private(set) var verifyFuncArgs
+    
+    func funcArgs(args: String) {
+        verifyFuncArgs.append(args: args)
+    }
+    
+    func funcVoid() {
+        verifyFuncVoid.call()
+    }
+}
+
 class Tests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
+    private let spyClass: SpyClass = .init()
+
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        spyClass.funcVoid()
+        XCTAssertTrue(spyClass.verifyFuncVoid.wasCalledOnce(file: #file, line: #line))
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
