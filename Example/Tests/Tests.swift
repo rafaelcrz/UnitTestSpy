@@ -1,15 +1,6 @@
 import XCTest
 import UnitTestSpy
 
-extension ManagerVerifyFuncProtocol {
-    public var args: [String?] {
-        return []
-    }
-    
-    public func wasCalledOnce(file: StaticString, line: UInt) -> Bool {
-        return true
-    }
-}
 
 final class SpyClass {
     @VerifyFuncVoid
